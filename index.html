@@ -1,0 +1,36 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romanizer and Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Romanizer and Translator</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Input Japanese Lyrics</h2>
+      <textarea id="input-text" placeholder="Paste Japanese lyrics here"></textarea>
+    </section>
+    <section>
+      <h2>Results</h2>
+      <div class="results">
+        <div class="romanization">
+          <h3>Romanization</h3>
+          <textarea id="romanization-output" readonly></textarea>
+        </div>
+        <div class="translation">
+          <h3>Translation</h3>
+          <textarea id="translation-output" readonly></textarea>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
